@@ -1,0 +1,410 @@
+
+body{
+ position: relative;
+}
+/* navbar css */
+.navbar{
+    background-color: #222220;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: -2px;
+    border-bottom:2px solid #222220;
+}
+.navbar-nav > li > a:hover,
+    .navbar-nav > .active > a {
+      border-bottom: solid 2px #D34747;
+       background: none !important; 
+    }
+@media (max-width:768px) {
+    .navbar a:hover{
+    border-bottom: none ;
+}
+}
+
+/* dropdown css */
+#login-dp{
+    padding: 15px;
+    width: 270px;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.8);
+    backface-visibility:unset;
+    font-weight: 300;
+}
+b{
+    font-weight: 400;
+}
+#login-dp .bottom{
+    clear: both;
+    border-top: 1px solid #ddd;
+     background-color: rgba(255,255,255,0.9);
+     padding-top: 14px;
+}
+#login-dp .social-buttons{
+    margin : 12px 0;
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .social-buttons i{
+    margin-right: 4px;
+}
+ .btn-fb{
+    color: #fff;
+    background-color: #3b5998;
+}
+.btn-fb:hover{
+    background-color: #496ebc;
+}
+.btn-tw{
+    color: #fff;
+    background-color: #55acee;
+}
+.btn-tw:hover{
+    background-color: #59b5fa;
+}
+#submit{
+    background-color: #d34747;
+    border: 0;
+    border-radius: 0;
+    height: 2.5em;
+}
+#login-dp a:hover{
+    border-bottom: none;
+}
+
+/* Header css */
+
+.header{
+    background-image:  url(img/header.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover ;  
+}
+
+.header h1{
+    margin-top: 180px;
+    text-align: center;
+    /* color: #fff; */
+   font-style: italic;
+   font-size: 70px ;
+    color: #222220;
+}
+.header span{
+    top: -10px;
+    position: relative;
+    font-size: 30px;
+ }
+ .header h3{
+    margin-left: 10px;
+    text-align: center;
+    /* color: #fff; */
+   font-style: italic;
+   color: #222220;   
+}
+
+@media (max-width:768px) {
+    .header h1{
+    margin-top: 150px;
+   font-size: 50px ;
+}
+.header h3{
+   font-size: 15px ;
+}
+.header{
+    padding-top: 100px;
+}
+}
+
+
+
+.flex-container {
+    display: flex !important;
+    justify-content: center; /* centers horizontally */
+    align-items: center; /* centers vertically */
+    height: 100px;
+    width: 100%; /* changed from 100px to full width */
+    margin: 0;
+    padding: 0;
+}
+
+.btn-grp {
+     white-space: nowrap; /* prevents text wrapping */
+    padding: 0.5rem 1rem; /* comfortable padding */
+    display: flex;
+    gap: 10px; /* space between buttons */
+    justify-content: center; /* center buttons within group */
+}
+
+/* services Section */
+
+.services{
+    text-align: center;
+    margin-top: 50px;
+    padding: 70px;
+
+}
+.services h1{
+    font-size: 40px;
+    color: #4c4c4c;
+}
+.services h4{
+    color: #4c4c4c;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.services p{
+    color: #737373;
+    margin-bottom: 40px;
+    
+}
+.services i{
+    padding: 20px 20px;
+    border-radius: 50%;
+    background-color: #D34747;
+    height: 70px;
+    width: 70px;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+   
+}
+
+/* sales css */
+
+.sales{
+    background-color: #141414;
+    margin-top: 50px;
+    padding: 150px 50px 60px 90px;
+    color: #fff;
+    min-height: 500px;
+   
+}
+.sales #left-side img{
+    height: 150px;
+    width: 400px;
+    min-height: 300px;
+    display: inline-block;
+    border-radius: 5%;
+
+}
+.sales #right-side h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.sales #right-side p{
+    line-height: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+@media (max-width:768px) {
+    .sales{
+        padding: 50px;
+        min-height: 400px;
+    }
+    .sales #left-side img{
+        height: 200px;
+        width: 350px;
+
+    }
+    .sales #right-side h1{
+        font-size: 30px;
+    }
+}
+
+/* pricing section css */
+
+.pricing{
+    padding: 70px 60px ;
+    text-align: center;
+    background-color: #d34747;
+    color: #fff;
+} 
+
+
+.packages p,
+.packages li{
+color:#737373 ;
+
+}
+.packages li{
+    display: block;
+    margin-bottom: 4px;
+}
+.packages h3,
+.packages h1{
+color: #4c4c4c;
+
+}
+.pricing .packages{
+    border-radius: 5px;
+    margin: 15px 8px;
+    padding: 30px 10px;
+     
+    background-color: #fff;
+    border: 1px solid #222220
+}
+.pricing button{
+    margin-top: 10px;
+}
+
+/* mission css */
+
+.mission{
+    min-height: 600px;
+    padding: 80px 40px;
+
+}
+
+.mission #rightside{
+    padding: 30px;
+
+}
+
+.mission #leftside{
+    padding: 30px;
+    
+
+
+}
+.mission #leftside p{
+    text-align: justify;
+    line-height: 30px;
+    font-size: 25;
+    margin-top: 15px;
+}
+.mission #leftside h1{
+    margin-bottom: 20px;
+    font-size: 35;
+}
+
+.mission #rightside img{
+    height: 300px;
+    border-radius: 2px;
+    margin-left: 15;
+
+
+}
+
+/* clients section */
+
+.clients{
+    background-color: #bf5353;
+    color: #fff;
+    text-align: center;
+    padding: 80px 50px;
+}
+.clients img{
+    height: 70px;
+    width: 200px;
+    margin-top: 50px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.clients li{
+    display: inline;
+}
+
+/* team section */
+
+.team{
+    padding: 100px 70px;
+    text-align: center;
+    color: #141414;
+}
+
+.team p  {
+    color: #4c4c4c;
+    line-height: 20px;
+    
+}
+.team h1 ,.team h3{
+    margin-bottom: 20px;
+     
+}
+.team img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 80px;
+}
+.team i{
+    
+    margin-top: 10px;
+    color: rgb(64, 168, 64);
+    font-size: 15px;
+    padding: 5px;
+    
+}
+.team #aa{
+    width: 200px;
+    display: inline-block;
+    margin-left: 52px;
+    
+}
+
+/* contact css */
+
+.contact{
+    padding: 80px 50px;
+    background-color: #d34747;
+    color: #fff;
+    text-align: center;
+}
+
+.contact .input-group{
+    margin-bottom: 20px!important;
+
+}
+.contact p{
+    margin-bottom:  70px;
+}
+.contact .form-control{
+    border-radius: 0 !important;
+   
+}
+.contact span{
+    border-radius: 0 !important;
+   
+}
+.contact .btn{
+    margin-top: -12px;
+    border-radius: 0;
+    width: 100%;
+    
+    font-size: 15px;
+    background-color: #f08080;
+}
+.contact .btn:hover{
+    background-color: #bf5353!important;
+    color: #933636;
+    cursor: pointer;
+}
+
+ /* footer css */
+ .footer{
+    text-align: left;
+    padding: 70px 30px;
+    color: #fff;
+    background-color: #222220;
+ }
+ .footer h2{
+    color: #737373;
+    margin-bottom: 30px;
+ }
+ .footer a{
+    font-size: 20px;
+    margin-left: 7px;
+    color: #fff;
+ }
+ .footer input {
+     margin-top: 7px;
+     width: 250px;
+ }
+ .footer .btn{
+    margin-top: 10px;
+    
+ }
+ 
